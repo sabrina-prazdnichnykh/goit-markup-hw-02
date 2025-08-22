@@ -165,6 +165,7 @@ h2 {
 .portfolio-list-item {}
 
 .portfolio-list-header {
+    color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
