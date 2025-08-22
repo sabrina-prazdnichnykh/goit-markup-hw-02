@@ -88,13 +88,10 @@ h2 {
 .hero-button {
     color: #FFFFFF;
     background: #4D5AE5;
-    border-radius: 4px;
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-
-
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -159,7 +156,7 @@ h2 {
 
 /* our portfolio */
 
-portfolio-title {
+.portfolio-title {
     line-height: 1.11;
     color: #2e2f42;
 }
