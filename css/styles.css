@@ -11,7 +11,7 @@ ul, ol {
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FCFCFC;
+    background-color: #FFFFFF;
 }
 
 h2 {
@@ -21,24 +21,22 @@ h2 {
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
 /* header */
 .logo  {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color:#4D5AE5;
 }
 
-.logo-violet {
-    color: #4D5AE5;
-}
-
-.logo-white {
-    color: #F4F4FD;
+.logo-black {
+    color: #2e2f42;
 }
 
 .header-nav-list{}
@@ -55,7 +53,9 @@ h2 {
     color: #404BBF;
 }
 
-
+.address-mail-phone{
+    font-style: normal;
+}
 .address-list {}
 
 .address-item {
@@ -73,15 +73,14 @@ h2 {
 
 .hero-section {
     background: #2E2F42;
-    width: 1440px;
-    height: 600px;
+
 }
 
 .hero-title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -90,14 +89,15 @@ h2 {
     color: #FFFFFF;
     background: #4D5AE5;
     border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15) ;
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+
 }
 
-.hero-button:hover {
+.hero-button:hover, .hero-button:focus {
     background: #404BBF;
 }
 
@@ -126,15 +126,20 @@ h2 {
 
 /* our team */
 
+.our-team-title {
+    line-height: 1.11;
+}
+
+
 .our-team-background {
-    width: 1440px;
-    height: 732px;
-    color: #F4F4Fd;
+    background-color: #F4F4Fd;
 }
 
 .team-list{}
 
-.team-list-item {}
+.team-list-item {
+    background-color: #FFFFFF
+}
 
 .team-member-name {
     font-weight: 500;
@@ -154,6 +159,10 @@ h2 {
 
 /* our portfolio */
 
+portfolio-title {
+    line-height: 1.11;
+    color: #2e2f42;
+}
 .portfolio-list {}
 
 .portfolio-list-item {}
@@ -174,8 +183,12 @@ h2 {
 
 /* footer */
 
-footer {
+.footer {
     background:#2E2F42;
+}
+
+.logo-white {
+    color: #f4f4fd;
 }
 
 .footer-text {
